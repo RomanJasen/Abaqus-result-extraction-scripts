@@ -9,10 +9,21 @@ There is a playlist of tutorials for these scripts. The tutorials are not ideal,
 	General tutorial and overview - https://www.youtube.com/watch?v=g9gw_EXEesM&list=PLjdnR7Fv3RGjCVFS0ykvkd6-2jo0IHgPl&index=2
 	Making of the model from the General tutorial - https://www.youtube.com/watch?v=stwDfm0-Hc0&list=PLjdnR7Fv3RGjCVFS0ykvkd6-2jo0IHgPl&index=8
 
+
 Essentials:
   This GitHub contains a number of python scripts with a main goal to automate extraction of force and displacement data from Abaqus models. These are not finished and it is unclear if they will be finished. They are made by myself, an inexpirienced coder that is self taught, while an effort is made to make the code simple and show its structure as clear as possible, due to the fact i did not decide to write it from stratch again, it is somewhat suboptimal. Still, they do work and can be used efficently, after the initial period of testing and familiarisation. The scripts do a bad job in being a completed program for general use, but i was able to easily modify them for different tasks i needed, such as running a large number of pushover analysis with extraction of data from multiple cross sections.
-The scripts exist to automate the workflow which happens in two stages, this is described in paragraph 1. There are multiple variants and versions depending on the expected workflow and depending on the model, described in paragraph 2 will explain different workflows present in the repository. There is a variant with GUI, described in paragraph 3.
+Paragraph 0 relates to versions of python and windows. 
+The scripts exist to automate the workflow which happens in two stages, this is described in paragraph 1. 
+There are multiple variants and versions depending on the expected workflow and depending on the model, described in paragraph 2 will explain different workflows present in the repository. 
+There is a variant with GUI, described in paragraph 3.
 
+
+
+
+Paragraph 0:
+Abaqus version: The original scripts are made for Abaqus 2021 (Python 2.7.15 (default, Jul 25 2019, 08:13:50) [MSC v.1916 64 bit (AMD64)] )
+Windows version: Edition	Windows 10 Pro ; Version	22H2  ; Installed on	‎5.‎11.‎2021.  ; OS Build	19045.6466
+For use in later versions, i would expect there arent big changes, there are some changes in library names (Tkinter vs tkinter). I will likely make a new 2024 version of the scripts, but for now, 2021 is available)
 
 Paragraph 1:
   With regards to script structure, there are 2 main steps conducted, with everything else being done either to support these, or as additional automation.
